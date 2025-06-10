@@ -130,6 +130,13 @@ a:hover {
     }
     .description {
         width: fit-content;
+        margin-top: 6px;
+    }
+    .price {
+        margin-top: 6px;
+    }
+    a {
+        margin-top: 6px;
     }
 }
 @media (max-width: 515px) {
@@ -168,6 +175,9 @@ a:hover {
     }
         .price p:nth-of-type(1) {
         font-size: 22px;
+    }
+    .title {
+        font-size: 13px;
     }
 }
 @media (max-width: 425px) {
